@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>COTTON CROP DISEASE DETECTION</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div>
+        <img src="/static/images/cotton plant banner1.png" class="w3-border w3-padding" alt="Indian AI Production"
+            style="width:100%">
+    </div>
+
+
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+                <div class="details">
+
+                    <h6>
+
+
+                        <b>There is no disease on the cotton plant.</b></br>
+                        Although the chemical fertilizer has fallen on the leaves of the tree, the leaves are burnt, but
+                        there is no need to worry.</br></br>
+                        
+                        <b>பருத்தி செடியில் எந்த நோயும் இல்லை.</b></br>
+                        மரத்தின் இலைகளில் ரசாயன உரம் விழுந்தாலும், இலைகள் எரிக்கப்படுகின்றன, ஆனால்
+                        கவலைப்பட தேவையில்லை. </br></br>
+                        
+                        <b>कपास के पौधे पर कोई बीमारी नहीं है।</b></br>
+                       हालांकि रासायनिक उर्वरक पेड़ की पत्तियों पर गिर गया है, लेकिन पत्तियों को जला दिया जाता है, लेकिन
+                        चिंता करने की कोई बात नहीं है।.. </br></br>
+                        
+                        <b>കോട്ടൺ പ്ലാന്റിൽ ഒരു രോഗവുമില്ല.</b></br>
+                       രാസവളം മരത്തിന്റെ ഇലകളിൽ പതിച്ചിട്ടുണ്ടെങ്കിലും ഇലകൾ കരിഞ്ഞുപോകുന്നു, പക്ഷേ
+                        വിഷമിക്കേണ്ട ആവശ്യമില്ല... </br></br>
+                        
+                        <b>పత్తి మొక్కపై వ్యాధి లేదు...</b></br>
+                       రసాయన ఎరువులు చెట్టు ఆకులపై పడినప్పటికీ, ఆకులు కాలిపోతాయి, కానీ
+                        ఆందోళన చెందాల్సిన అవసరం లేదు...</br></br>
+
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
