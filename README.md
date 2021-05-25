@@ -1,4 +1,4 @@
-# Cotton-Plant-Disease-Prediction
+# Cotton-Crop-Disease-Detection
 
    Given an image of the cotton plant leaf, we will be able to detect the
 kind of disease the cotton plant has been affected by. I have gathered hundreds
